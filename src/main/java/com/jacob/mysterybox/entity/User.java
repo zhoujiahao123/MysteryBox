@@ -10,6 +10,7 @@ public class User {
     private String address;
     private char gender;
     private int age;
+    private double salary;
 
     public String getName() {
         return name;
@@ -49,5 +50,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }
